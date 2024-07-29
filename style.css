@@ -1,0 +1,277 @@
+
+
+                                 /* Navbar  */
+/* ===============\========================\=============================\ */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+
+}
+  
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(153, 153, 153, 0.486);
+    backdrop-filter: blur(20px);
+    box-shadow: 0,0,0,.1;
+    width: 100%;
+    height: 66px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+
+}
+.logo p{
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: 500;
+}
+.pages{
+    margin-right: 60px
+}
+.pages ul li {
+    font-family: "poppins";
+    font-size: 18px;
+    justify-content: space-around;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+
+}
+.pages a{
+    text-decoration: none;
+    color: aliceblue;
+    position:relative ;
+    padding: 0 10px;
+}
+.pages a::after{
+content: "";
+position: absolute;
+background-color: aliceblue;
+border-radius: 10px;
+height: 3px;
+width: 0;
+left: 0;
+bottom: -10px;
+transition: 0.3s;
+}
+
+.pages a:hover::after{
+    width: 100%;
+
+
+}
+/* ======================================\ Main /================================= */
+
+.main{
+    background-image: url(./godzila-image/Main.jpeg);
+    background-size: cover;
+    width: 1380px;
+    height: 720px;
+}
+
+.main h1{
+    font-size: 70px;
+    font-family:  Georgia, Times, 'Times New Roman', sans-serif;
+    color: aliceblue;
+    padding-top: 160px;
+    margin-left: 100px;
+
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    font-family:  Georgia, Times, 'Times New Roman', sans-serif;
+    color: aliceblue;
+    margin-left: 100px; 
+    border-radius: 10px;
+    background-color: black;
+
+}
+/* =======================================\ Second /=========================== */
+
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec-image{
+    width: 480px;
+    height: 550px;
+    border-radius: 40px;
+    margin-top: 80px;
+    border: 1px solid aliceblue;
+
+}
+.sec-text{
+    color: aliceblue;
+}
+ h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family:  Georgia, Times, 'Times New Roman', sans-serif;;
+    color: aliceblue;
+    padding-top: 5px
+}
+.sec-text h4{
+    font-size: 18px;
+    font-weight: 700;
+    font-family:  Georgia, Times, 'Times New Roman', sans-serif;;
+    color: aliceblue;
+    padding-top: 5px
+}
+ p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family:  Georgia, Times, 'Times New Roman', sans-serif;;
+    color: aliceblue;
+    padding-top: 5px;
+}
+
+
+/* ====================================\Third/================================ */
+
+.Third{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tri-image{
+    width: 480px;
+    height: 520px;
+    border-radius: 40px;
+    margin-top: 80px;
+    border: 1px solid aliceblue;
+
+}
+
+ h6{
+    font-size: 14px;
+    font-weight: 700;
+    font-family:  Georgia, Times, 'Times New Roman', sans-serif;;
+    color: aliceblue;
+    padding-top: 10px
+}
+
+
+/* ========================================\ Fourth /================================== */
+
+.Fourth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.four-image{
+    width: 480px;
+    height: 520px;
+    border-radius: 40px;
+    margin-top: 80px;
+    border: 1px solid aliceblue;
+
+}
+
+/* ========================================\ Fifth /================================== */
+
+
+.fifth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.five-image{
+    width: 480px;
+    height: 520px;
+    border-radius: 40px;
+    margin-top: 80px;
+    border: 1px solid aliceblue;
+
+}
+
+/* ==============================================\last/====================================== */
+
+
+.last{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left h2{
+    margin-top: 100px;
+    font-size: 30px;
+}
+.left p{
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.right h2{
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.right p{
+    font-size: 14px;
+    padding-top: 10px;
+}
+/* ===================================\ Footer /====================================== */
+
+
+.sec-last{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+background-color:  rgba(153, 153, 153, 0.486);
+ width: 1380px;
+ height: 400px; 
+ margin-top: 10px;
+}
+
+
+.copy-right h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.sec-last ul li {
+    font-family: "poppins";
+    font-size: 18px;
+    list-style: none;
+    padding: 5px;
+    margin-right: 20px;
+    color: aliceblue;
+
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(153, 153, 153, 0.349);
+    backdrop-filter: blur(20px);
+    box-shadow: 0,0,0,.1;
+    width: 100%;
+    height: 80px;
+}
+footer a{ 
+    text-decoration: none;
+    color: aliceblue;  
+    padding: 0 10px;
+
+}
+footer a span{
+    font-size: 24px;
+    color: aliceblue;
+}
