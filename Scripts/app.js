@@ -1,6 +1,9 @@
-setTimeout(()=>{
-    window.location='./pages/signup.html'
-},4000)
+
+// mistake 
+
+// setTimeout(()=>{
+//     window.location='./pages/signup.html'
+// },4000)
 
 import { auth,onAuthStateChanged } from "./firebase.js";
 
@@ -12,14 +15,13 @@ onAuthStateChanged(auth, (user) => {
 
 
     console.log("login ha ya ", user);
-    window.location = "./index.html";
-    return;
+    // window.location = "./index.html";
 
   } else {
     // User is logout
 
     setTimeout(() => {
       window.location = "./pages/signup.html";
-    }, 3000);
+    }, 4000);
   }
 });
